@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int hasil;
+//membuat fungsi dengan parameter bertipe masukan
+int tambah(int x, int y){
+int penjumlahan;
+penjumlahan = x+y;
+return penjumlahan;}
+int main(){
+int bilangan1,bilangan2, HASIL;
+cout<<"masukan bilangan 1 =  "; cin>>bilangan1;
+cout<<"masukan bilangan 2 =  "; cin>>bilangan2;
+HASIL= tambah(bilangan1,bilangan2);
+cout<<"Nilai akhir : "<<HASIL;
+return 0;
+}
