@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+int bilangan1,bilangan2;
+int hasil_kali,hasil_tambah,hasil_bagi,hasil_kurang;
+
+void perkalian();
+void pembagian();
+void pertambahan();
+void pengurangan();
+
+void perkalian()
+{
+
+    hasil_kali=bilangan1*bilangan2;
+    cout<<"Hasil kali ="<<hasil_kali<<endl;
+}
+void pembagian()
+{
+    hasil_bagi=bilangan1/bilangan2;
+    cout<<"Hasil Bagi ="<<hasil_bagi<<endl;
+}
+void pertambahan()
+{
+    hasil_tambah=bilangan1+bilangan2;
+    cout<<"Hasil Tambah ="<<hasil_tambah<<endl;
+}
+void pengurangan()
+{
+    hasil_kurang=bilangan1-bilangan2;
+    cout<<"Hasil kurang ="<<hasil_kurang<<endl;
+}
+int main()
+{cout<<"Masukan BIlangan 1 = "; cin>>bilangan1;
+cout<<"Masukan Bilangan 2 = "; cin>>bilangan2;
+
+perkalian();
+pertambahan();
+perkalian();
+pembagian();
+}
